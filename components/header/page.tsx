@@ -195,7 +195,7 @@ export default function Header() {
       </div>
 
       <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
-        <DialogContent onCloseAutoFocus={(e) => e.preventDefault()}>
+        <DialogContent>
           <form onSubmit={handleCriarTarefa}>
             <React.Fragment>
               <DialogHeader>

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Header from "@/components/header/page.tsx";
+import Header from "@/components/header/page";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 import { DM_Sans } from "next/font/google";
